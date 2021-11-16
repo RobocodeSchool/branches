@@ -15,11 +15,16 @@ nav > ul {
     justify-content: space-around;
 }
 
+nav > ul > li {
+    padding: 0 1rem;
+}
+
 nav > ul > li > a {
     color: #fff;
     text-decoration: none;
     font-size: 1.4rem;
 }
+
 
 .welcome {
     text-align: center;
