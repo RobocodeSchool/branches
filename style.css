@@ -1,0 +1,32 @@
+.home-body {
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.welcome {
+    text-align: center;
+    font-family: cursive;
+    line-height: 50vh;
+    font-size: 5rem;
+    background: -webkit-linear-gradient(rgb(255, 6, 180), rgb(250, 247, 58));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
